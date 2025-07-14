@@ -1,0 +1,68 @@
+body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom right, #f3e9dc, #ffe8b0);
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: #fff;
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        font-size: 2em;
+        color: #d4af37;
+    }
+    .section {
+        margin: 20px 0;
+    }
+    .centered {
+        text-align: center;
+    }
+    .child-name {
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: bold;
+        color: #444;
+    }
+    .date-time, .location {
+        text-align: justify;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .quote {
+        font-style: italic;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #777;
+    }
+    .photo {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .gmaps-link {
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #d4af37;
+        font-weight: bold;
+        font-size: 1.5em;
+        transition: all 0.3s ease;
+    }
+    .gmaps-link:hover {
+        color: #007BFF;
+        transform: scale(1.07);
+    }
